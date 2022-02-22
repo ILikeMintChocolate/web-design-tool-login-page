@@ -17,6 +17,6 @@ npm run dev
 
 ```bash
 <Route path='/'>
-    <Login/>  <<-- 이부분을 원하는 페이지로 바꾸기 (ex: <Home/> )
+    <Login/>  <!-- 이부분을 원하는 페이지로 바꾸기 (ex: <Home/> ) -->
 </Route>
 ```
