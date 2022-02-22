@@ -20,16 +20,16 @@
 
     // 배열에 파이어베이스 저장 파일 불러오기
     fileArray[0] = new File('파이어베이스 파일 넣기', `https://media.vlpt.us/images/jacoblee19/post/37558a06-0678-4657-adb2-e1e957e6d8f0/html.webp`, '쇼핑몰 사이트', '1분전')
-    fileArray[1] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[2] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[3] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[4] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[5] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[6] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[7] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[8] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[9] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
-    fileArray[10] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거니', '1일전')
+    fileArray[1] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[2] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[3] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[4] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[5] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[6] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[7] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[8] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[9] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
+    fileArray[10] = new File('아무거나', `https://images.pexels.com/photos/5213347/pexels-photo-5213347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`, '아무거나', '1일전')
 
     function clickFile() {
         alert('파일 불러오기')
