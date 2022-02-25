@@ -1,13 +1,51 @@
+
+
+
+
 <script>
     import { navigate } from "svelte-routing";
+    
+    // 파이어베이스
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyCAPjucpY0gKqRbPZpJW4rugAfvhadrBCg",
+        authDomain: "webdesigntool-6c99e.firebaseapp.com",
+        projectId: "webdesigntool-6c99e",
+        storageBucket: "webdesigntool-6c99e.appspot.com",
+        messagingSenderId: "548202789405",
+        appId: "1:548202789405:web:c416d76ff145ac0f25e4f4",
+        measurementId: "G-DJFTVDBQT8"
+    };
+
+    
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    const provider = new GoogleAuthProvider();
+    const auth = getAuth();
+    // 파이어베이스
+
+    
     
 
     let innerWidth = window.innerWidth;
     let innerHeight = window.innerHeight;
 
     function clickLoginButton() {
-        // 로그인 버튼누르면 로그인페이지 연결
-        navigate("home", { replace: true });
+        signInWithPopup(auth, provider).then((result) => {
+            const credential = GoogleAuthProvider.credentialFromResult(result);
+            const token = credential.accessToken;
+            const user = result.user;
+            navigate("home", { replace: true });
+        }).catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            const email = error.email;
+            const credential = GoogleAuthProvider.credentialFromError(error);
+        });
     }
 
 </script>
